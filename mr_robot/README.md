@@ -6,6 +6,7 @@ This room is based on the Mr. Robot TV series...
 ...
 
 OBJECTIVE:
+
 In this room, we are tasked with gaining root access on a vulnerable machine. 
 The steps involve network enumeration, web exploitation, and privilege escalation through a reverse shell, followed by privilege escalation using GTFOBins.
 
@@ -18,7 +19,8 @@ We start by scanning the target IP to identify open ports and services. We use t
 Step 2: Directory Bruteforce with Gobuster
 Next, we run Gobuster to find hidden directories on the target web server:
 
-gobuster dir -u http://<target_ip> -w /usr/share/dirbuster/wordlists/directory-list-2.3-small.txt
+                     gobuster dir -u http://<target_ip> -w /usr/share/dirbuster/wordlists/directory-list-2.3-small.txt
+                     
 This discovers directories and files that may be useful for further exploitation.
 /robots
 /readme
@@ -27,23 +29,34 @@ This discovers directories and files that may be useful for further exploitation
 /login etc
 
 step3:
-http://<target_ip>/robots.txt
+
+                          http://<target_ip>/robots.txt
+
+                          
 you will find:
 User-agent: *
 fsocity.dic
 key-1-of-3.txt
 
 step 4:FINDING KEY 1
-to get key1 simply http://ip/key-1-of-3.txt
-              OR 
-curl http://ip/key-1-of-3.txt
+
+                http://ip/key-1-of-3.txt
+                
+                         OR 
+                         
+                Curl http://ip/key-1-of-3.txt
 
 steP5:Finding Key 2 – /license Page
-http://<target_ip>/license
+
+                http://<target_ip>/license
+                
 You’ll see a base64 encoded string, something like:
-         ZGVwbG95ZXI6cm9ib3Q=
+
+                ZGVwbG95ZXI6cm9ib3Q=
 Decode It:
-echo ZGVwbG95ZXI6cm9ib3Q= | base64 -d
+
+                echo ZGVwbG95ZXI6cm9ib3Q= | base64 -d
+                
 username:password     (HINT username is elloit)
 
 
@@ -70,8 +83,10 @@ The PHP reverse shell typically looks like this:
 
                            
 STEP7:SETTING UP A LISTENER:
+
 Start the Netcat listener on your local machine to accept
 incoming connections on port 53 (or any port of your choice):
+
                           nc -lvnp 53
 
 
@@ -90,6 +105,7 @@ which aren't available in the default reverse shell.
 
 
 STEP9:Finding SUID Binaries
+
 At this point, we have basic access to the system. To escalate privileges to root, we search for SUID binaries. 
 These are executables that have the setuid bit set, which means they will run with the privileges of the file owner (typically root).
 We can search for these binaries by running:
@@ -107,6 +123,7 @@ are setuid and may be useful for privilege escalation.
 
 
 STEP10:USING NMAP WITH SUID:
+
 In our case, we find that Nmap is setuid, meaning it can be executed with root privileges. By using the GTFOBins resource,
 we find that Nmap can be exploited for privilege escalation.
 We use Nmap’s interactive mode to escalate our privileges:
