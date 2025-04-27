@@ -134,6 +134,47 @@ DCA
 for this i did reverse google lookup u can also use yandex
 
 
+![Website Screenshot](./Screenshot%20(127).png)
+
+
+
+we dont have to focus on trees but farther a head a minarate type structure
+
+![Website Screenshot](./Screenshot%20(128).png)
+
+
+
+we took a pic of above and put it in yandex it gave us this result
+
+
+![Website Screenshot](./Screenshot%20(129).png)
+
+
+
+now we know the name of the place so lets google it out 
+
+
+![Website Screenshot](./Screenshot%20(130).png)
+
+
+
+![Website Screenshot](./Screenshot%20(131).png)
+
+
+
+
+Q.2.
+
+What airport did the attacker have their last layout in ????
+
+HND
+
+again we have to use reverse image search yandex it is
+
+
+
+
+
 
 
 
