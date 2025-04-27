@@ -182,6 +182,31 @@ What lake can be seen in the map shared by .....????
 
 lake inawashiro
 
+i saw the pic given to us there is an s shaped island so iwent on google maps
+near japan i found the s shaped island 
+
+
+![Website Screenshot](./Screenshot%20(133).png)
+
+then i zoomed in to the nearest lake to that s shaped island 
+
+![Website Screenshot](./Screenshot%20(134).png)
+
+![Website Screenshot](./Screenshot%20(135).png)
+
+
+Q.4.
+
+What city does the attacker....???
+
+HIROSAKI
+
+Simply by going back to the APs page located on the d*rk web(not actually but the SS in hints), can directly get the name of the city. So, no need to make any sort of guesses.
+
+So, we are done for now.
+
+I hope you enjoyed this. Until next one, Peace.
+
 
 
 
