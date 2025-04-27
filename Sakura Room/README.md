@@ -40,7 +40,7 @@ So, going through one of the writeups found the PGP keys can reveal emails.
 
 
 
-                        ![Screenshot (123)](https://github.com/user-attachments/assets/115e3a62-a034-4214-ad7d-a2e5f1236077)
+                        https://github.com/khanwaqas2236/tryhackme_writeups/blob/c99239309709b18e31c257822d8b246090b86940/Screenshot%20(122).png
 
 
 
