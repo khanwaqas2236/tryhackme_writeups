@@ -106,5 +106,35 @@ Q.2.
 For this one I referred the SS provided in the hints. Tor was not actually setup and didn’t had much time for it.
 
 
+![Website Screenshot](./Screenshot%20(126).png)
+
+Also include the md5 hash as well else won’t be correct.
+
+
+http://deepv2w7p33xa4pwxzwi2ps4j62gfxpyp44ezjbmpttxz3owlsp4ljid.onion/show.php?md5=b2b37b3c106eb3f86e2340a3050968e2
+
+
+
+
+Q.3.
+What is the BSSID for the attacker's home wifi???
+84:AFËC:34:FC:F8
+
+For this you need ‘wigle.net’. If you are going through some books or any OSINT resources, then you’ll definitely come up with this site to do lookups on SSIDs or BSSIDs.
+
+
+Task-6
+Q.1.
+
+what airport is closest to the attacker shared the photo prior ....???
+DCA
+
+
+
+for this i did reverse google lookup u can also use yandex
+
+
+
+
 
 
