@@ -103,4 +103,8 @@ Q.1.What is the attacker current twitter handle???
 Q.2.
 ![Website Screenshot](./Screenshot%20(125).png)
 
+For this one I referred the SS provided in the hints. Tor was not actually setup and didn’t had much time for it.
+
+
+
 
