@@ -1,4 +1,4 @@
-Task-1 hello
+![image](https://github.com/user-attachments/assets/fd516410-54f1-40b4-99b3-7c179f91cb8a)Task-1 hello
 Q.1.
 
 
@@ -170,6 +170,22 @@ What airport did the attacker have their last layout in ????
 HND
 
 again we have to use reverse image search yandex it is
+
+![Website Screenshot](./Screenshot%20(132).png)
+
+just by googling haneda airport code and boom you will have HND
+
+
+Q.3.
+
+What lake can be seen in the map shared by .....????
+
+lake inawashiro
+
+
+
+
+
 
 
 
