@@ -41,7 +41,7 @@ So, going through one of the writeups found the PGP keys can reveal emails.
 
 
                         
-![Website Screenshot](../Screenshot%20(122).png)
+![Website Screenshot](./Screenshot%20(122).png)
 
 
 
