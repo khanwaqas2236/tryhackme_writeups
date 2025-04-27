@@ -9,6 +9,7 @@ This repo contains detailed walkthroughs of 50+ labs I’ve completed on TryHack
 - [Jurassic Park](./jurassic_park/README.md)
 - [WebOSINT](./webosint/README.md)
 - [OSINT Dojo](./osintdojo/README.md)
+- [Sakura Room](./sakuraroom/README.md)
 
 ## 🧠 Skills Covered
 - Network & Web Enumeration
