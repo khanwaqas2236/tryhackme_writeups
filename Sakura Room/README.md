@@ -46,7 +46,8 @@ So, going through one of the writeups found the PGP keys can reveal emails.
 
 
 
-So, here I was able to locate a Github account related to the name discovered in previous task.
+So, here I was able to locate a Github account related to the name discovered in previous task.I then went to ETH to discover
+base64 encoding.
 
 
 
@@ -92,4 +93,13 @@ What other cryptocurrency did the attacker exchange using their wallet???
 tether
 
 same tool as above used etherscan.io
+
+
+
+Task-5
+Q.1.What is the attacker current twitter handle???
+@SakuraLoverAiko
+
+Q.2.
+
 
