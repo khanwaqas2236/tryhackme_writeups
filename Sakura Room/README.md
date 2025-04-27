@@ -50,7 +50,7 @@ So, here I was able to locate a Github account related to the name discovered in
 
 
 
-                               *(adding pic)
+                               ![Website Screenshot](./Screenshot%20(124).png)
 
 
 So, by base64 decoding(use any online or burp decoder) we revail the email
