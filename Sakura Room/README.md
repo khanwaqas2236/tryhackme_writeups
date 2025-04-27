@@ -10,12 +10,15 @@ Q.1.
 
 What username does the attacker goes by?
 
+
 SakuraSnowAngelaiko
 
 
 Don’t waste time looking for this binary and what it means. I wasted a lot on it. I simply converted this to decimal and then referred the ASCII table.
 
 Finally => ‘A picture worth 1000 words but metadata is worth far more’
+
+
 
 Simply right click and view page source to look through the metadata.
 (‘metadata’ is information of an information. Here picture is the information whose further information is revealed via it’s metadata.)
@@ -32,6 +35,7 @@ So, in the /home directory, if you are familiar with linux then you know it is a
 TASK-3:
 
 What is the full email address used by the attacker?
+
 
                            sakurasnowangel83@protonmail.com
 
@@ -53,12 +57,15 @@ So, going through one of the writeups found the PGP keys can reveal emails.
 
 
 
+
 So, here I was able to locate a Github account related to the name discovered in previous task.I then went to ETH to discover
 base64 encoding.
 
 
 
+
 ![Website Screenshot2](./Screenshot%20(124).png)
+
 
 
 So, by base64 decoding(use any online or burp decoder) we revail the email
@@ -126,10 +133,14 @@ Q.2.
 
 ![Website Screenshot](./Screenshot%20(125).png)
 
+
+
 For this one I referred the SS provided in the hints. Tor was not actually setup and didn’t had much time for it.
 
 
 ![Website Screenshot](./Screenshot%20(126).png)
+
+
 
 Also include the md5 hash as well else won’t be correct.
 
@@ -161,11 +172,14 @@ DCA
 for this i did reverse google lookup u can also use yandex
 
 
+
 ![Website Screenshot](./Screenshot%20(127).png)
 
 
 
 we dont have to focus on trees but farther a head a minarate type structure
+
+
 
 ![Website Screenshot](./Screenshot%20(128).png)
 
@@ -181,7 +195,10 @@ we took a pic of above and put it in yandex it gave us this result
 now we know the name of the place so lets google it out 
 
 
+
+
 ![Website Screenshot](./Screenshot%20(130).png)
+
 
 
 
@@ -198,7 +215,11 @@ HND
 
 again we have to use reverse image search yandex it is
 
+
+
 ![Website Screenshot](./Screenshot%20(132).png)
+
+
 
 just by googling haneda airport code and boom you will have HND
 
@@ -215,9 +236,15 @@ near japan i found the s shaped island
 
 ![Website Screenshot](./Screenshot%20(133).png)
 
+
+
 then i zoomed in to the nearest lake to that s shaped island 
 
+
+
 ![Website Screenshot](./Screenshot%20(134).png)
+
+
 
 ![Website Screenshot](./Screenshot%20(135).png)
 
