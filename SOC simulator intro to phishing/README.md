@@ -57,14 +57,14 @@ Email headers & sender domains are analyzed to check if they originate from know
 Splunk is used to correlate the email domains and user interactions.
 
                           
-                              ![SOC Screenshot](./screenshot-139.png)
+  ![soc2 Screenshot](./Screenshot%20(140).png)
 
 
  in the search bar of splunk you can search for a domain name a file a parent directory and much more.In addition, the pic 
  
  below shows that you can also analyze logs by time stamps and date
 
-                            ![soc2 Screenshot](./Screenshot%20(140).png)
+  ![soc2 Screenshot](./Screenshot%20(140).png)
                                 
 Threat intelligence tools such as VirusTotal and Anom Sandbox help identify malicious domains or attachments.
 
@@ -81,7 +81,7 @@ The SOC team extracts email attachments and analyzes script contents to check fo
 
 Parent-child process relationships are examined to detect malware execution.
 
-                         ![soc3 Screenshot](./Screenshot%20(138).png)
+   ![soc3 Screenshot](./Screenshot%20(138).png)
 
 ## In-depth Analysis of Malicious Attachments
 
