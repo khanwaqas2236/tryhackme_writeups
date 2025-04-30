@@ -57,7 +57,7 @@ Email headers & sender domains are analyzed to check if they originate from know
 Splunk is used to correlate the email domains and user interactions.
 
                           
-  ![soc2 Screenshot](./Screenshot%20(140).png)
+  ![soc2 Screenshot](./Screenshot%20(139).png)
 
 
  in the search bar of splunk you can search for a domain name a file a parent directory and much more.In addition, the pic 
