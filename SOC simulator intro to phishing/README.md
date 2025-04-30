@@ -135,7 +135,7 @@ Correlate logs in Splunk to uncover hidden attack patterns.
 
 Train employees to recognize phishing attempts, reducing successful attacks.
 
-# #Conclusion
+## Conclusion
 
 Refining detection rules reduces false positives.
 
