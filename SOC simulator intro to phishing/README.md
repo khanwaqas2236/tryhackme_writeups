@@ -14,10 +14,10 @@
 
 
 
-##Introduction to SOC and Phishing Threats
+## Introduction to SOC and Phishing Threats
 A Security Operations Center (SOC) is responsible for monitoring, detecting, and responding to cybersecurity threats in real-time. One of the most common cyber threats handled by SOC analysts is phishing attacks, where attackers attempt to deceive users into revealing sensitive information or downloading malicious files. In this article, we will explore how SOC analysts identify and investigate phishing emails using tools like ANYRUN, Splunk, VirusTotal, and sandbox analysis.
 
-#The Role of SOC in Phishing Detection
+# The Role of SOC in Phishing Detection
 SOC analysts use phishing detection rules and security alerts to identify suspicious emails that may contain malicious links, attachments, or social engineering tactics. These emails are flagged based on:
 
 Unusual sender domains
