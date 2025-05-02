@@ -1,11 +1,12 @@
-#🛡️ TryHackMe NetSec Challenge Writeup
+#  🛡️TryHackMe NetSec Challenge Writeup
+
 Platform: TryHackMe
 Challenge Name: NetSec
 Difficulty: (/Medium)
 Category: Networking / Security / Penetration Testing
 Author: [KWAT]
 
-#Enumeration
+# Enumeration
 
                              nmap -sC -sV -T4 -Pn <target-ip> -oN nmap.txt
 
