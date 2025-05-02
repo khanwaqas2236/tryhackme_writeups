@@ -1,20 +1,27 @@
 #  🛡️TryHackMe NetSec Challenge Writeup
 
-Platform: TryHackMe
-Challenge Name: NetSec
-Difficulty: (/Medium)
-Category: Networking / Security / Penetration Testing
-Author: [KWAT]
+            Platform: TryHackMe
+
+            Challenge Name: NetSec
+
+            Difficulty: (/Medium)
+
+            Category: Networking / Security / Penetration Testing
+
+            Author: [KWAT]
 
 # Enumeration
 
                              nmap -sC -sV -T4 -Pn <target-ip> -oN nmap.txt
+                             
 
 This should give us plenty of information and as expected, once we get back the results
 
 we can answer the first three questions.
 
-                              adding pic here\
+
+![nmap1 Screenshot](./Screenshot%20(147).png)
+
 
 What is the highest port number being open less than 10,000? 8080
 
@@ -24,23 +31,38 @@ How many TCP ports are open? 6
 
 The next question wants us to find the flag hidden in the HTTP server header.
 
-                              adding pic
+
+  ![nmap2 Screenshot](./Screenshot%20(148).png)
+
+  
 
   We’ll get quite a few results when we list all the http scripts that are available,
   
   but there is one that should catch your eye for this particular task.
 
-                             adding pic
+  
+
+  ![nmap3 Screenshot](./Screenshot%20(149).png)
+
+  
 
   the script works and we have a flag
 
-                              add pic here
+  
+
+  ![nmap4 Screenshot](./Screenshot%20(150).png)
+
+  
 
   We can try looking through the nmap scripts for ssh, but we find nothing promising this time.
   
   What if we connect to the port with telnet?
 
-                                add pic here
+  
+
+  ![nmap5 Screenshot](./Screenshot%20(151).png)
+
+
 
   As soon as we do that, we are greated with the header and the flag we need.
   
@@ -58,7 +80,9 @@ We’re going to have to find the passwords that go along with those usernames h
 
 Hydra should come in handy here along with our trusty rockyou.txt wordlist.
 
+
                               hydra -l eddie -P /usr/share/wordlists/rockyou.txt
+                              
                               hydra =l quinn -P /usr/share/wordlists/rockyou.txt
 
 
@@ -68,10 +92,15 @@ Now we have to log in as both users and see if we can find any files.
 
 We are met with success when we log in as quinn.
 
-                                    add pic here
+
+
+  ![nmap6 Screenshot](./Screenshot%20(152).png)
+
+  
 
 
 All we need to do is download the file to our local machine with get and then read it to obtain the flag.
+
 
                                    cat any_filename.txt
 
@@ -79,8 +108,9 @@ All we need to do is download the file to our local machine with get and then re
 
 doing a null scan 
 
-                              nmap -sN ip-OF-machine
+
+                                    nmap -sN ip-OF-machine
 
 
-                              add pic here
+  ![nmap7 Screenshot](./Screenshot%20(153).png)
   
