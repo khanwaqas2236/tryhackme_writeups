@@ -10,6 +10,7 @@ This repo contains detailed walkthroughs of 50+ labs I’ve completed on TryHack
 - [WebOSINT](./webosint/README.md)
 - [OSINT Dojo](./osintdojo/README.md)
 - [Sakura Room](./sakuraroom/README.md)
+-  [ohsint Room](./ohsint/README.md)
 
 ## 🧠 Skills Covered
 - Network & Web Enumeration
