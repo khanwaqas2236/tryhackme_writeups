@@ -10,14 +10,15 @@
 
             Author: [KWAT]
 
-     add pic here
+![ohsint1 Screenshot](./Screenshot%20(154).png)
 
  # Task 1: OhSINT
  
  first, you need to download the image given
 
-     add pic here
+     
 
+![ohsint2 Screenshot](./Screenshot%20(155).png)
 
 
 Q1: What is this users avatar of?
@@ -28,12 +29,12 @@ on your kali linux system or parrot os or cent etc run
 Download the tool using sudo apt install exiftool
 
 
-add pic 
+![ohsint1 Screenshot](./Screenshot%20(156).png)
 
 What do we got if we google OWoodflint?
 
 
-add pic
+![ohsint1 Screenshot](./Screenshot%20(157).png)
 
 
 Here is the links to all the account:
@@ -49,7 +50,7 @@ Our best bet to see avatar image among these three account is Twitter.
 Let us open that:
 
 
-add pic
+![ohsint1 Screenshot](./Screenshot%20(158).png)
 
 
 
@@ -68,7 +69,9 @@ Wigle.net is a search engine to search network related items.
 For BSSID, we just need to scroll down the twitter to found this tweet:
 
 
-add pic
+![ohsint1 Screenshot](./Screenshot%20(159).png)
+
+
 
 Ok, for wigle.net
 
@@ -79,9 +82,11 @@ Go to View > Basic Search
 
  Use Advanced Search
 
- add pic
- add pic
- add pic
+ ![ohsint1 Screenshot](./Screenshot%20(160).png)
+ 
+ ![ohsint1 Screenshot](./Screenshot%20(161).png)
+ 
+ ![ohsint1 Screenshot](./Screenshot%20(162).png)
 
  
 # Q3:Whats the SSID of the WAP he connected to?
@@ -107,7 +112,8 @@ We can’t found the answer in Github and Twitter.
 Now, let us open the blog:
 
 
-add pic here
+![ohsint1 Screenshot](./Screenshot%20(163).png)
+
 
 # Q7: What is this persons password?
 
@@ -117,10 +123,14 @@ this one was a bit tricky for this we have to view the page source just simply r
 
 view page source and skimming through u will find this 
 
-add pic
+
+![ohsint1 Screenshot](./Screenshot%20(164).png)
+
+
 
 i have a short trick too sice the password is hidden in the webpage just highlight the whole page
 
 and you will see it booooom!!!
 
-add pic
+
+![ohsint1 Screenshot](./Screenshot%20(165).png)
