@@ -155,6 +155,170 @@ nslookup — It means “Name Server Look Up”, and the objective is to look fo
                                nslookup domain_name.com
 
 
+add pic 
+
+
+These three main parameters are as follows:
+
+OPTIONS — contains the query type, and you can use “A” for IPv4 addresses and “AAAA” for IPv6 addresses, for example.
+
+DOMAIN_NAME — the domain name you are looking up.
+
+SERVER — the DNS server that you want to query, and you can query any local or public DNS server. Cloudflare offers 1.1.1.1 
+
+and 1.0.0.1, Google offers 8.8.8.8 and 8.8.4.4, and Quad9 offers 9.9.9.9 and 149.112.112.112
+
+For example, nslookup -type=A tryhackme.com 1.1.1.1 (or nslookup -type=a tryhackme.com 1.1.1.1 due to case insensitivity)
+
+can be used to return all of tryhackme.com’s IPv4 addresses.
+
+
+add pic
+
+
+
+Recognizing “nslookup” is beneficial for penetration testing because, in the example above, we started with “1 domain name” 
+
+and ended up with “3 IPv4 addresses”.
+
+
+Another example is in the area of “mail server,” such as which we wish to learn more, and we can use the approach below:
+
+                        nslookup -type=MX tryhackme.com
+
+
+add pic
+
+
+Tryhackme.com’s current email settings appears to be Google.
+
+Since MX is searching for Mail Exchange servers, we note that when a mail server attempts to deliver email to 
+
+@tryhackme.com, it will attempt to connect to aspmx.l.google.com, which has order 1.
+
+If it is busy or unavailable, the mail server will try to connect to the next mail exchange server in line, 
+
+alt1.aspmx.l.google.com or alt2.aspmx.l.google.com.
+
+dig (Domain Information Groper) — It appears to be for more advanced DNS queries and more functionality, 
+
+and it is similar to “nslookup,” which gathers DNS information but is also useful for troubleshooting DNS issues.
+
+                          dig <domain_name>
+
+
+add pic
+
+
+Next, suppose we wish to learn more about the information from the mail server.
+
+                               dig <domain_name> <type>
+                               example: dig tryhackme.com MX
+
+
+add pic
+
+
+
+A simple comparison of the output of “nslookup” and “dig” reveals that dig returned additional information by default,
+
+such as the TTL (Time To Live).
+
+TTL (Time To Live) — It is a value that represents the amount of time a packet or data should exist on a computer
+
+or network before being discarded. TTL, or packet lifetime, has many meanings depending on the context.
+
+TTL in networking stops data packets from flowing forever over a network.
+
+TTL regulates data caching and improves speed in programs.
+
+TTL is also employed in other contexts, such as content delivery network (CDN) caching and domain name system (DNS) caching.
+
+
+# [Question 4.1]
+
+Check the TXT records of thmlabs.com. What is the flag there?
+
+
+add pic
+
+
+
+# Answer: 
+
+THM{a5b83929888ed36acb0272971e438d78}
+
+# TASK5:DNSDUMPSTER
+
+[Question 5.1] Lookup tryhackme.com on DNSDumpster. What is one interesting subdomain that you would discover
+
+in addition to www and blog?
+
+1st — Access into DNSDumpster
+
+                                 www.dnsdumpster.com
+
+
+2nd — Search “tryhackme.com” and you will see this
+
+
+add pic
+
+
+# Answer:
+
+remote
+
+
+# TASK6:SHODAN.IO
+
+It offers a wide range of capabilities within this open source tool, and one of my highlights
+
+is that it is remarkably close to “Nmap.”
+
+Shodan.io — A tool such as this is notably useful for learning various pieces of
+
+information about the client’s network during penetration testing (without actively connecting to it).
+
+add pic
+
+
+[Question 6.1] According to Shodan.io, what is the 2nd country in the world in terms of the number of publicly accessible 
+
+Apache servers?
+
+Shodan will return the result of a search for “Apache Server.”
+
+add pic
+
+
+# Answer: Germany
+
+
+[Question 6.2] Based on Shodan.io, what is the 3rd most common port used for Apache?
+
+add pic
+
+# Answer: 8080
+
+# [Question 6.3]
+
+Based on Shodan.io, what is the 3rd most common port used for nginx?
+
+
+add pic
+
+# Answer:
+
+8888
+
+
+
+
+
+
+
+
 
 
 
