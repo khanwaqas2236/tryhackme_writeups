@@ -253,9 +253,11 @@ Stay secure. Stay Elliot.
 *The script sometimes wont work unless you do the following things:
 
 **1. Update the Package List:**
-                                               sudo apt update
 
-**3. Resolving the Public Key Error (if encountered):**
+                                               sudo apt update
+                                               
+
+**2. Resolving the Public Key Error (if encountered):**
 
 If you saw this error:
                                              sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys ED65462EC8D5E4C5
@@ -264,15 +266,15 @@ You needed to add the missing public key:
 
                                              sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys ED65462EC8D5E4C5
 
-**4. Install mhash (if it was missing):**
+**3. Install mhash (if it was missing):**
 
                                              sudo apt install mhash
 
-**5. Verify the Installation:**
+**4. Verify the Installation:**
 
                                              steghide --version
 
-**6. Install Required Packages:**
+**5. Install Required Packages:**
 
                                              sudo apt install steghide
 
