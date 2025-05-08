@@ -175,7 +175,7 @@ exit 0
 
 ```
 
-### **Encryption Script:**
+### **Decryption Script:**
 
 ```bash
 
@@ -246,3 +246,57 @@ exit 0
 Feel free to clone, modify, and adapt these scripts based on your specific security needs. For questions, issues, or suggestions, drop them in the comments section!
 
 Stay secure. Stay Elliot.
+
+
+### **NOTE:**
+
+*The script sometimes wont work unless you do the following things:
+
+**1. Update the Package List:**
+                                               sudo apt update
+
+**3. Resolving the Public Key Error (if encountered):**
+
+If you saw this error:
+                                             sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys ED65462EC8D5E4C5
+
+You needed to add the missing public key:
+
+                                             sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys ED65462EC8D5E4C5
+
+**4. Install mhash (if it was missing):**
+
+                                             sudo apt install mhash
+
+**5. Verify the Installation:**
+
+                                             steghide --version
+
+**6. Install Required Packages:**
+
+                                             sudo apt install steghide
+
+
+**Troubleshooting Installation Issues**
+
+If you encounter issues installing steghide or mhash, you can resolve them with the following commands:
+
+
+                                             sudo apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv-keys ED65462EC8D5E4C5
+                                             sudo apt update
+                                             sudo apt install mhash
+                                             sudo apt update
+                                             sudo apt install steghide imagemagick openssl
+                                             sudo apt install libmhash-dev
+                                             steghide --version
+
+
+These commands should resolve the most common installation issues, including missing dependencies and public key errors.
+
+Feel free to clone, modify, and adapt these scripts based on your specific security needs. For questions, issues, or suggestions, drop them in the comments section!
+
+Stay secure. Stay Elliot.
+
+
+
+
