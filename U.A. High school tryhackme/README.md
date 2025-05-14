@@ -157,6 +157,20 @@ Let’s Transfer these files from the Victim’s machine to the attacker’s sys
 
   
 
+on the attacker machine our machine we will use 
+
+
+                              rlwrap  nc -lvnp 1234 > oneforall.jpg
+
+                              
+
+it will start listening and recive things when you send them when you have recieved the image simply 
+
+
+
+come out by pressing ctrl+c and ls to verify if file has been saved in your directory or not
+  
+
 when you recieve the connection on listener side simply close the connection by ctrl+c and verify using ls command
 
 
