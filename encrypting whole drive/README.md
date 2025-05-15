@@ -4,7 +4,7 @@ These PowerShell scripts provide a simple and secure way to **encrypt** and **de
 
 ---
 
-## 🔐 Encryption Script
+## 🔐 Encryption Script  
 
 ```powershell
 # Windows Volume E Encryption Script (AES-GCM)
