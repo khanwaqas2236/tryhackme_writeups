@@ -1,7 +1,7 @@
 # Windows Volume E Encryption Script (AES-GCM)
 # Encrypts all files on the E: volume and requires a password for encryption only
 
-```powershell
+```powershell 
 
 param (
     [string]$Volume = "E:\"
