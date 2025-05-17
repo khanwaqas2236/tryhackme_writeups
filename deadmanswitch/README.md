@@ -1,7 +1,6 @@
 ## this script send data on auto to the recipient if u stop it running you have to start it again within the time to not send data ##
 
 ```
-
 import os
 import time
 import threading
@@ -15,9 +14,9 @@ from email import encoders
 CHECK_INTERVAL = 10  # Check every 10 seconds (reduced for testing)
 TRIGGER_TIMEOUT = 60  # 60 seconds without check-in triggers the data release
 TRIGGER_FILE = "last_checkin.txt"
-ALERT_EMAIL = "salmantahir075@gmail.com"
-ALERT_PASSWORD = "wlsv tdrc egra svhl"
-RECIPIENT_EMAIL = "salmantahir075@gmail.com"
+ALERT_EMAIL = "your_gmail@gmail.com"
+ALERT_PASSWORD = "wlsv tdrc 000 000"
+RECIPIENT_EMAIL = "recipient_mail075@gmail.com"
 DATA_FILE = "data_dump.zip"
 SMTP_SERVER = "smtp.gmail.com"
 SMTP_PORT = 587
@@ -107,5 +106,6 @@ if __name__ == "__main__":
     while True:
         check_in()
         time.sleep(10)  # Check in every 10 seconds (reduced for testing)
+
 
 ```
