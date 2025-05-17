@@ -1,5 +1,6 @@
 ## this script send data on auto to the recipient if u stop it running you have to start it again within the time to not send data ##
 
+```
 
 import os
 import time
@@ -106,3 +107,5 @@ if __name__ == "__main__":
     while True:
         check_in()
         time.sleep(10)  # Check in every 10 seconds (reduced for testing)
+
+```
