@@ -141,6 +141,28 @@ Arguments: -WindowStyle Hidden -File "C:\path\to\ChromeHistoryBackup.ps1"
 
 ```
 
+ ## Method 2: Manual Hidden Execution
+            For PowerShell, run:
+
+
+```
+
+Start-Process powershell.exe -ArgumentList "-WindowStyle Hidden -File `"C:\path\to\ChromeHistoryBackup.ps1`"" -NoNewWindow
+
+
+```
+
+For Batch, run:
+
+
+
+```
+
+start /B ChromeHistoryBackup.bat
+
+
+```
+
 
 ## Accessing Backups
 
